@@ -31,7 +31,7 @@ Projeyi bilgisayarınıza indirip geliştirmek isterseniz şu adımları izleyin
 
 1.  **Projeyi Klonlayın:**
     ```bash
-    git clone [https://github.com/emirhanuzgun/weather-app.git] (https://github.com/emirhanuzgun/weather-app.git)
+    git clone https://github.com/emirhanuzgun/weather-app.git
     ```
 
 2.  **API Anahtarı Alın:**
@@ -49,4 +49,5 @@ Projeyi bilgisayarınıza indirip geliştirmek isterseniz şu adımları izleyin
 
 **Emirhan Üzgün**
 * [LinkedIn Profilim](https://linkedin.com/in/emirhan-üzgün/)
+
 * [Portfolio Sitem](https://emirhanuzgun.dev)
