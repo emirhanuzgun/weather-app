@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hava Durumu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="card">
+        <div class="header">
+            <p id="tarih">Tarih Yükleniyor...</p>
+        </div>
+
+        <div class="search">
+            <input type="text" id="sehir-input" placeholder="Şehir girin (örn: Ankara, TR)">
+            <button id="arama-butonu"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button id="konum-butonu"><i class="fa-solid fa-location-crosshairs"></i></button>
+        </div>
+        
+        <div class="weather" style="display: none;">
+            <img src="" class="weather-icon">
+            <h1 class="temp">--°C</h1>
+            <h2 class="city">--</h2>
+            <p class="description">--</p>
+            
+            <div class="details-grid">
+                <div class="detail-box">
+                    <i class="fa-solid fa-temperature-half"></i>
+                    <div>
+                        <p class="hissedilen">--°C</p>
+                        <p>Hissedilen</p>
+                    </div>
+                </div>
+                <div class="detail-box">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div>
+                        <p class="humidity">--%</p>
+                        <p>Nem</p>
+                    </div>
+                </div>
+                <div class="detail-box">
+                    <i class="fa-solid fa-wind"></i>
+                    <div>
+                        <p class="wind">-- km/s</p>
+                        <p>Rüzgar</p>
+                    </div>
+                </div>
+                <div class="detail-box">
+                    <i class="fa-solid fa-sun"></i>
+                    <div>
+                        <p class="sun-times">--:-- / --:--</p>
+                        <p>D. / B.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="forecast-container">
+                <h3>5 Günlük Tahmin</h3>
+                <div class="forecast-list" id="forecast-list">
+                    </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
